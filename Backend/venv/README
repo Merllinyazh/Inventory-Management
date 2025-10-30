@@ -1,0 +1,4 @@
+I Created Flask application and for clear installation ,I used Virtual enviromnment.
+In Backend,
+    1.config.py is created - For database connection to MYSQL queries
+    2.Helper.py is created - Use for executing the db which abstracts the code and reuce code repetation

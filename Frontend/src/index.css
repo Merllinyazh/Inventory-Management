@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@layer base, components, utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevent scroll */
+  background-color: #141414;
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: linear-gradient(135deg, #2a0f23, #4a1f3c, #643c50);
+  background-size: 300% 300%;
+  animation: gradient-shift 10s ease infinite;
+}
+
